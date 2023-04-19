@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/gcde
+
+idspace: GCDE
+base_url: /obo/gcde
+
+products:
+- gcde.owl: https://raw.githubusercontent.com/KrishnaUdaiwal/gcde_ontology/main/gcde.owl
+- gcde.obo: https://raw.githubusercontent.com/KrishnaUdaiwal/gcde_ontology/main/gcde.obo
+
+term_browser: ontobee
+example_terms:
+- GCDE_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/KrishnaUdaiwal/gcde_ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/KrishnaUdaiwal/gcde_ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/GCDE?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/KrishnaUdaiwal/gcde_ontology/main/
+
