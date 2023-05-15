@@ -1,10 +1,8 @@
 
-![Build Status](https://github.com/KrishnaUdaiwal/gcde_ontology/workflows/CI/badge.svg)
+![Build Status](https://github.com/GC-Data-Ecosystem/gcde_ontology/workflows/CI/badge.svg)
 # GC Data Ecosystem ontology
 
-Description: None
-
-More information can be found at http://obofoundry.org/ontology/gcde
+Description: Worj-in-Progress of the upcoming gcde ontology proof-of-concept
 
 ## Versions
 
@@ -12,17 +10,19 @@ More information can be found at http://obofoundry.org/ontology/gcde
 
 The latest version of the ontology can always be found at:
 
-http://purl.obolibrary.org/obo/gcde.owl
-
-(note this will not show up until the request has been approved by obofoundry.org)
+To be released
 
 ### Editors' version
 
 Editors of this ontology should use the edit version, [src/ontology/gcde-edit.owl](src/ontology/gcde-edit.owl)
 
+## New Editors
+
+New editors adding new entities must add their name (Github UserID) to the [gcde-idranges.owl](src/ontology/gcde-idranges.owl), self-assign range per the instructions included within the comments, or request from another editor to have their name added. 
+
 ## Contact
 
-Please use this GitHub repository's [Issue tracker](https://github.com/KrishnaUdaiwal/gcde_ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Please use this GitHub repository's [Issue tracker](https://github.com/GC-Data-Ecosystem/gcde_ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 ## Acknowledgements
 
