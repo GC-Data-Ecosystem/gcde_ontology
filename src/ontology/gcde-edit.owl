@@ -15,6 +15,9 @@ Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "GC Data Ecosystem ontology")
 
+Declaration(Class(<http://purl.obolibrary.org/gcde#GCDE_0010000>))
+Declaration(Class(<http://purl.obolibrary.org/gcde#GCDE_0010001>))
+Declaration(AnnotationProperty(dce:creator))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -34,6 +37,26 @@ AnnotationAssertion(rdfs:label dcterms:license "license")
 
 AnnotationAssertion(rdfs:label dcterms:title "title")
 
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/gcde#GCDE_0010000> (Accumulated Precipitation)
+
+AnnotationAssertion(dce:creator <http://purl.obolibrary.org/gcde#GCDE_0010000> <https://orcid.org/0000-0002-2627-0696>)
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/definition> <http://purl.obolibrary.org/gcde#GCDE_0010000> "A precipitation which is accumulated over a period of time."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/gcde#GCDE_0010000> "Accumulated Precipitation"@en)
+SubClassOf(<http://purl.obolibrary.org/gcde#GCDE_0010000> <http://purl.obolibrary.org/gcde#GCDE_0010001>)
+
+# Class: <http://purl.obolibrary.org/gcde#GCDE_0010001> (Precipitation)
+
+AnnotationAssertion(dce:creator <http://purl.obolibrary.org/gcde#GCDE_0010001> <https://orcid.org/0000-0002-2627-0696>)
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/gcde#GCDE_0010001> "Includes drizzle, freezing drizzle, freezing rain, hail, ice crystals, ice pellets, rain, snow, snow pellets, and snow grains. Types of precipitation that originate aloft are classified under Liquid Precipitation, Freezing Precipitation and Frozen Precipitation. The measurement of precipitation is expressed in terms of vertical depth of water (or water equivalent in the case of solid forms) which reaches the ground during a stated period. The millimetre (mm) is the unit of measurement of liquid precipitation and the vertical depth of water or water equivalent is express to the nearest 0.2  mm. Less than 0.2 mm is called a \"Trace\". For climate stations operating on a 24 hours basis, total precipitation measurements end at 0600Z of the following day."@en)
+AnnotationAssertion(Annotation(dce:source "https://climate.weather.gc.ca/glossary_e.html") <http://www.ontologyrepository.com/CommonCoreOntologies/definition> <http://purl.obolibrary.org/gcde#GCDE_0010001> "An Interval Measurement Information Content Entity that measures amounts of any and all forms of water, liquid or solid, that falls from clouds and reaches the ground."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/gcde#GCDE_0010001> "Precipitation"@en)
+SubClassOf(<http://purl.obolibrary.org/gcde#GCDE_0010001> <http://www.ontologyrepository.com/CommonCoreOntologies/IntervalMeasurementInformationContentEntity>)
 
 
 )
