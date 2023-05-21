@@ -1,0 +1,30 @@
+pattern_name: haircoat_colour_pattern
+pattern_iri: http://purl.obolibrary.org/obo/obo-academy/patterns/haircoat_colour_pattern.yaml
+
+description: "
+  Captures the multicoloured characteristic of the fur, i.e. spotted, dotted, motley etc."
+
+classes:
+  colour_pattern: PATO:0001533
+  coat_of_hair: UBERON:0010166
+
+relations:
+  has_characteristic: RO:0000053
+
+vars:
+  colour_pattern: "'colour_pattern'"
+
+name:
+  text: "%s coat of hair"
+  vars:
+    - colour_pattern
+
+def:
+  text: "A coat of hair with a %s colour pattern."
+  vars:
+    - colour_pattern
+
+equivalentTo:
+  text: "'coat_of_hair' and 'has_characteristic' some %s"
+  vars:
+    - colour_pattern
