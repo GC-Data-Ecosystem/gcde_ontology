@@ -4,6 +4,7 @@ Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(gcde:=<http://purl.obolibrary.org/obo/gcde.owl#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
@@ -15,9 +16,7 @@ Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "GC Data Ecosystem ontology")
 Annotation(rdfs:comment "This is an Ontology of Government of Canada Departments")
 
-Declaration(Class(<http://purl.obolibrary.org/obo#GCDE_1000002>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000000>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo#GCDE_1000002>))Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000004>))
@@ -116,7 +115,13 @@ AnnotationAssertion(rdfs:label dcterms:description "description")
 
 # Annotation Property: dcterms:license (license)
 
+
+# Annotation Property: dcterms:license (license)
+
 AnnotationAssertion(rdfs:label dcterms:license "license")
+
+# Annotation Property: dcterms:title (title)
+
 
 # Annotation Property: dcterms:title (title)
 
