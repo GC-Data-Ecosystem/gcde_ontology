@@ -18,6 +18,7 @@ Annotation(dcterms:title "GC Data Ecosystem ontology")
 
 Declaration(Class(<http://purl.obolibrary.org/gcde#GCDE_0010000>))
 Declaration(Class(<http://purl.obolibrary.org/gcde#GCDE_0010001>))
+<<<<<<< Updated upstream
 Declaration(Class(<http://purl.obolibrary.org/obo#GCDE_1000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000001>))
@@ -105,6 +106,10 @@ Declaration(Class(<http://www.w3.org/2004/02/skos/core#OrderedCollection>))
 Declaration(Class(<https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010001>))
 Declaration(Class(<https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010002>))
 Declaration(Class(<https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010003>))
+=======
+Declaration(NamedIndividual(gcde:gcde_00100005))
+Declaration(NamedIndividual(gcde:gcde_00100006))
+>>>>>>> Stashed changes
 Declaration(AnnotationProperty(dce:creator))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
@@ -646,6 +651,39 @@ AnnotationAssertion(dce:creator <https://github.com/GC-Data-Ecosystem/gcde_ontol
 AnnotationAssertion(dcterms:description <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010003> "AI")
 AnnotationAssertion(rdfs:label <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010003> "Accountable AI"@en)
 SubClassOf(<https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010003> <http://www.w3.org/2004/02/skos/core#Concept>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: gcde:gcde_00100005 (Emploi et Développement social Canada)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> gcde:gcde_00100005 "Internal services department's plans for fiscal year 2020 to 2021. The department, has a Data Strategy and will improve the use of 
+data via:
+ Experimentation under the Artificial Intelligence Strategy and the development of the 
+second version of the Data Strategy.
+ Exploration of new ways of using data to improve evidence-based decision-making and 
+improve service delivery.
+ The continued sharing of ESDC’S data with the public through Open Government and 
+Open Data initiatives and encouraging the use of this data in community events.
+ The continued development of recruitment, retention and data literacy approaches to 
+ensure that employees have the skills and tools needed to collect and use data."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> gcde:gcde_00100005 "Legacy"@en)
+AnnotationAssertion(dcterms:created gcde:gcde_00100005 "1/27/2021"@en)
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/acronym> gcde:gcde_00100005 "ESDC"@en)
+AnnotationAssertion(Annotation(<http://www.ontologyrepository.com/CommonCoreOntologies/definition_source> "https://www.canada.ca/fr/emploi-developpement-social.html"@fr) <http://www.ontologyrepository.com/CommonCoreOntologies/definition> gcde:gcde_00100005 "Emploi et Développement social Canada (EDSC) travaille à améliorer le niveau de vie et la qualité de vie de tous les Canadiens en faisant la promotion d'une main-d'œuvre mobile et hautement spécialisée ainsi que d'un marché du travail efficace et favorable à l'inclusion."@fr)
+AnnotationAssertion(Annotation(<http://www.ontologyrepository.com/CommonCoreOntologies/definition_source> "https://www.canada.ca/en/employment-social-development.html"@en) <http://www.ontologyrepository.com/CommonCoreOntologies/definition> gcde:gcde_00100005 "Employment and Social Development Canada (ESDC) works to improve the standard of living and quality of life for all Canadians. We do this by promoting a labour force that is highly skilled. We also promote an efficient and inclusive labour market."@en)
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/term_creator> gcde:gcde_00100005 "Anonymous"@en)
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/term_editor> gcde:gcde_00100005 "Original Prototype"@en)
+AnnotationAssertion(rdfs:label gcde:gcde_00100005 "Emploi et Développement social Canada"@fr)
+AnnotationAssertion(rdfs:label gcde:gcde_00100005 "Employment and Social Development Canada"@en)
+ClassAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/GovernmentAgency> gcde:gcde_00100005)
+
+# Individual: gcde:gcde_00100006 (Government of Canada)
+
+AnnotationAssertion(rdfs:label gcde:gcde_00100006 "Government of Canada"@en)
+ClassAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/GovernmentOfACountry> gcde:gcde_00100006)
 
 
 )
