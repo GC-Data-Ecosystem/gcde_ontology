@@ -9,7 +9,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
-Ontology(<http://purl.obolibrary.org/obo/gcde.owl>
+Ontology(<https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl>
 Import(<https://github.com/jonathanvajda/cco-d-acts>)
 Import(<http://www.w3.org/2004/02/skos/core>)
 Annotation(dcterms:description "None")
