@@ -11,7 +11,6 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 Ontology(<https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl>
 Import(<http://www.w3.org/2004/02/skos/core>)
-Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "GC Data Ecosystem ontology")
 Annotation(rdfs:comment "This is an Ontology of Government of Canada Departments")
@@ -100,9 +99,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000079>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000080>))
 Declaration(Class(<http://www.w3.org/2004/02/skos/core#Concept>))
 Declaration(Class(<http://www.w3.org/2004/02/skos/core#OrderedCollection>))
-Declaration(Class(<https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010001>))
-Declaration(Class(<https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010002>))
-Declaration(Class(<https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010003>))
+Declaration(Class(gcde:GCDE_0010001))
+Declaration(Class(gcde:GCDE_0010002))
+Declaration(Class(gcde:GCDE_0010003))
 Declaration(AnnotationProperty(dce:creator))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
@@ -620,24 +619,24 @@ AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000080> <h
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000080> "R&D social protection"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000080> <http://purl.obolibrary.org/obo/GCDE_0000010>)
 
-# Class: <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010001> (2010 Land Cover Of Canada)
+# Class: gcde:GCDE_0010001 (2010 Land Cover Of Canada)
 
-AnnotationAssertion(dce:creator <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010001> <https://orcid.org/0000-0002-2627-0696>)
-AnnotationAssertion(rdfs:label <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010001> "2010 Land Cover Of Canada"@en)
-SubClassOf(<https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010001> <http://www.w3.org/2004/02/skos/core#OrderedCollection>)
+AnnotationAssertion(dce:creator gcde:GCDE_0010001 <https://orcid.org/0000-0002-2627-0696>)
+AnnotationAssertion(rdfs:label gcde:GCDE_0010001 "2010 Land Cover Of Canada"@en)
+SubClassOf(gcde:GCDE_0010001 <http://www.w3.org/2004/02/skos/core#OrderedCollection>)
 
-# Class: <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010002> (2015 Land Cover Of Canada)
+# Class: gcde:GCDE_0010002 (2015 Land Cover Of Canada)
 
-AnnotationAssertion(dce:creator <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010002> <https://orcid.org/0000-0002-2627-0696>)
-AnnotationAssertion(rdfs:label <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010002> "2015 Land Cover Of Canada"@en)
-SubClassOf(<https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010002> <http://www.w3.org/2004/02/skos/core#OrderedCollection>)
+AnnotationAssertion(dce:creator gcde:GCDE_0010002 <https://orcid.org/0000-0002-2627-0696>)
+AnnotationAssertion(rdfs:label gcde:GCDE_0010002 "2015 Land Cover Of Canada"@en)
+SubClassOf(gcde:GCDE_0010002 <http://www.w3.org/2004/02/skos/core#OrderedCollection>)
 
-# Class: <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010003> (Accountable AI)
+# Class: gcde:GCDE_0010003 (Accountable AI)
 
-AnnotationAssertion(dce:creator <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010003> <https://orcid.org/0000-0002-2627-0696>)
-AnnotationAssertion(dcterms:description <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010003> "AI")
-AnnotationAssertion(rdfs:label <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010003> "Accountable AI"@en)
-SubClassOf(<https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010003> <http://www.w3.org/2004/02/skos/core#Concept>)
+AnnotationAssertion(dce:creator gcde:GCDE_0010003 <https://orcid.org/0000-0002-2627-0696>)
+AnnotationAssertion(dcterms:description gcde:GCDE_0010003 "AI")
+AnnotationAssertion(rdfs:label gcde:GCDE_0010003 "Accountable AI"@en)
+SubClassOf(gcde:GCDE_0010003 <http://www.w3.org/2004/02/skos/core#Concept>)
 
 
 )
