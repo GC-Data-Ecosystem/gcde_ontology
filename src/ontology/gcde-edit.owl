@@ -100,7 +100,6 @@ Declaration(Class(gcde:GCDE_0010001))
 Declaration(Class(gcde:GCDE_0010002))
 Declaration(Class(gcde:GCDE_0010003))
 Declaration(Class(gcde:GCDE_0100010))
-Declaration(Class(gcde:GCDE_0100011))
 Declaration(NamedIndividual(gcde:gcde_00100005))
 Declaration(NamedIndividual(gcde:gcde_00100006))
 Declaration(AnnotationProperty(dce:creator))
@@ -624,13 +623,6 @@ AnnotationAssertion(Annotation(dce:source "https://www23.statcan.gc.ca/imdb/p3Va
 AnnotationAssertion(dce:creator gcde:GCDE_0100010 <https://orcid.org/0000-0002-2627-0696>)
 AnnotationAssertion(rdfs:label gcde:GCDE_0100010 "Health problems"@en)
 SubClassOf(gcde:GCDE_0100010 <http://purl.obolibrary.org/obo/GCDE_0000007>)
-
-# Class: gcde:GCDE_0100011 (Health problems, self-reported of person)
-
-AnnotationAssertion(Annotation(dce:source "https://www23.statcan.gc.ca/imdb/p3Var.pl?Function=DEC&Id=82429") <http://purl.obolibrary.org/obo/IAO_0000115> gcde:GCDE_0100011 "A Health problems which affects a person which refers to an individual and is the unit of analysis for most social statistics programs.")
-AnnotationAssertion(dce:creator gcde:GCDE_0100011 <https://orcid.org/0000-0002-2627-0696>)
-AnnotationAssertion(rdfs:label gcde:GCDE_0100011 "Health problems, self-reported of person"@en)
-SubClassOf(gcde:GCDE_0100011 gcde:GCDE_0100010)
 
 
 ############################
