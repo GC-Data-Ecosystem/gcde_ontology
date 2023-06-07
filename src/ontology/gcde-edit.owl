@@ -99,6 +99,7 @@ Declaration(Class(<http://www.w3.org/2004/02/skos/core#OrderedCollection>))
 Declaration(Class(gcde:GCDE_0010001))
 Declaration(Class(gcde:GCDE_0010002))
 Declaration(Class(gcde:GCDE_0010003))
+Declaration(Class(gcde:GCDE_0100010))
 Declaration(NamedIndividual(gcde:gcde_00100005))
 Declaration(NamedIndividual(gcde:gcde_00100006))
 Declaration(AnnotationProperty(dce:creator))
@@ -615,6 +616,13 @@ AnnotationAssertion(dce:creator gcde:GCDE_0010003 <https://orcid.org/0000-0002-2
 AnnotationAssertion(dcterms:description gcde:GCDE_0010003 "AI")
 AnnotationAssertion(rdfs:label gcde:GCDE_0010003 "Accountable AI"@en)
 SubClassOf(gcde:GCDE_0010003 <http://www.w3.org/2004/02/skos/core#Concept>)
+
+# Class: gcde:GCDE_0100010 (Health problems)
+
+AnnotationAssertion(Annotation(dce:source "https://www23.statcan.gc.ca/imdb/p3Var.pl?Function=DEC&Id=82429"^^xsd:anyURI) <http://purl.obolibrary.org/obo/IAO_0000115> gcde:GCDE_0100010 "Health problems, self-reported refers to whether or not a person has reported that a health professional has diagnosed him or her with a long-term or chronic medical condition. Long-term or chronic conditions are those which have lasted, or are expected to last, six months or more."@en)
+AnnotationAssertion(dce:creator gcde:GCDE_0100010 <https://orcid.org/0000-0002-2627-0696>)
+AnnotationAssertion(rdfs:label gcde:GCDE_0100010 "Health problems"@en)
+SubClassOf(gcde:GCDE_0100010 <http://purl.obolibrary.org/obo/GCDE_0000007>)
 
 
 ############################
