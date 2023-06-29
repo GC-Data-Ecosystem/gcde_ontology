@@ -1,4 +1,4 @@
-Prefix(:=<http://purl.obolibary.org/obo/gcde/definitions.owl#>)
+Prefix(:=<urn:unnamed:ontology#ont1>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -6,6 +6,12 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-Ontology(<http://purl.obolibary.org/obo/gcde/definitions.owl>
+Ontology(<http://purl.obolibrary.org/obo/gcde/patterns/definitions.owl>
+<http://purl.obolibrary.org/obo/gcde/releases/2023-06-29/patterns/definitions.owl>
+Annotation(owl:versionInfo "2023-06-29"^^xsd:string)
 
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GCDE_0200000> "Employment and Social Development Canada (ESDC) established the Human Resources Innovation (HRI) division in 2017 to help the HR community - at ESDC and government-wide - to prepare for tomorrow. Multi-disciplinary and outward looking, the team conducts research on future HR opportunities in areas including automation, onboarding, workplace and skills of the future, etc. The team also provide services in human-centered design and experimentation to find innovative HR solutions."^^xsd:string)
 )

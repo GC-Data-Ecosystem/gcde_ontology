@@ -1,5 +1,5 @@
 pattern_name: Airtable
-pattern_iri: http://purl.obolibrary.org/obo/obo-academy/patterns/haircoat_colour_pattern.yaml
+pattern_iri: http://purl.obolibrary.org/obo/obo-academy/patterns/airtable.yaml
 
 description: "
   Add terms from GCDE Airtable to the ontology, with utmost flexibility."
@@ -14,7 +14,7 @@ classes:  # List of class/entities/types, or its subclasses
 relations:  # List of relations, or its subproperties
             # Used in vars, name, def, equivalentTo
 #  has_characteristic: RO:0000053
-  part_of: BFO:0000050
+  part_of: "BFO:0000050"
 
 vars: # Variables to be used in the pattern from defined classes
 #  colour_pattern: "'colour_pattern'"   
@@ -41,7 +41,7 @@ def:
   xrefs: "definition_source"
 
 equivalentTo:
-  text: "'part_of some %s'"
+  text: "'part_of' some %s"
   vars:
     - parent
 #  text: "'coat_of_hair' and 'has_characteristic' some %s"
