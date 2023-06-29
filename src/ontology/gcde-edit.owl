@@ -10,16 +10,14 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl>
-Import(<https://github.com/jonathanvajda/cco-d-acts>)
 Import(<http://www.w3.org/2004/02/skos/core>)
+Import(<https://github.com/jonathanvajda/cco-d-acts>)
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "GC Data Ecosystem ontology")
 
 Declaration(Class(<http://purl.obolibrary.org/gcde#GCDE_0010000>))
 Declaration(Class(<http://purl.obolibrary.org/gcde#GCDE_0010001>))
-Declaration(Class(<http://purl.obolibrary.org/obo#GCDE_1000002>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000003>))
@@ -100,11 +98,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000077>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000078>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000079>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000080>))
-Declaration(Class(<http://www.w3.org/2004/02/skos/core#Concept>))
-Declaration(Class(<http://www.w3.org/2004/02/skos/core#OrderedCollection>))
-Declaration(Class(<https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010001>))
-Declaration(Class(<https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010002>))
-Declaration(Class(<https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010003>))
 Declaration(NamedIndividual(gcde:gcde_00100005))
 Declaration(NamedIndividual(gcde:gcde_00100006))
 Declaration(AnnotationProperty(dce:creator))
@@ -147,68 +140,66 @@ AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/gcde#GCDE_00
 AnnotationAssertion(Annotation(dce:source "https://climate.weather.gc.ca/glossary_e.html") <http://www.ontologyrepository.com/CommonCoreOntologies/definition> <http://purl.obolibrary.org/gcde#GCDE_0010001> "An Interval Measurement Information Content Entity that measures amounts of any and all forms of water, liquid or solid, that falls from clouds and reaches the ground."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/gcde#GCDE_0010001> "Precipitation"@en)
 SubClassOf(<http://purl.obolibrary.org/gcde#GCDE_0010001> <http://www.ontologyrepository.com/CommonCoreOntologies/IntervalMeasurementInformationContentEntity>)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000000> <https://orcid.org/0000-0001-6350-2030>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000000> "GC Departments"@en)
 
 # Class: <http://purl.obolibrary.org/obo/GCDE_0000001> (General Public Services)
 
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000001> <https://orcid.org/0000-0001-6350-2030>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000001> "General Public Services"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000001> <http://purl.obolibrary.org/obo/GCDE_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000001> <http://www.ontologyrepository.com/CommonCoreOntologies/GovernmentAgency>)
 
 # Class: <http://purl.obolibrary.org/obo/GCDE_0000002> (Defence)
 
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000002> <https://orcid.org/0000-0001-6350-2030>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000002> "Defence"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000002> <http://purl.obolibrary.org/obo/GCDE_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000002> <http://www.ontologyrepository.com/CommonCoreOntologies/GovernmentAgency>)
 
 # Class: <http://purl.obolibrary.org/obo/GCDE_0000003> (Public order and safety)
 
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000003> <https://orcid.org/0000-0001-6350-2030>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000003> "Public order and safety"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000003> <http://purl.obolibrary.org/obo/GCDE_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000003> <http://www.ontologyrepository.com/CommonCoreOntologies/GovernmentAgency>)
 
 # Class: <http://purl.obolibrary.org/obo/GCDE_0000004> (Economic affairs)
 
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000004> <https://orcid.org/0000-0001-6350-2030>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000004> "Economic affairs"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000004> <http://purl.obolibrary.org/obo/GCDE_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000004> <http://www.ontologyrepository.com/CommonCoreOntologies/GovernmentAgency>)
 
 # Class: <http://purl.obolibrary.org/obo/GCDE_0000005> (Environmental protection)
 
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000005> <https://orcid.org/0000-0001-6350-2030>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000005> "Environmental protection"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000005> <http://purl.obolibrary.org/obo/GCDE_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000005> <http://www.ontologyrepository.com/CommonCoreOntologies/GovernmentAgency>)
 
 # Class: <http://purl.obolibrary.org/obo/GCDE_0000006> (Housing and community amenities)
 
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000006> <https://orcid.org/0000-0001-6350-2030>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000006> "Housing and community amenities"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000006> <http://purl.obolibrary.org/obo/GCDE_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000006> <http://www.ontologyrepository.com/CommonCoreOntologies/GovernmentAgency>)
 
 # Class: <http://purl.obolibrary.org/obo/GCDE_0000007> (Health)
 
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000007> <https://orcid.org/0000-0001-6350-2030>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000007> "Health"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000007> <http://purl.obolibrary.org/obo/GCDE_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000007> <http://www.ontologyrepository.com/CommonCoreOntologies/GovernmentAgency>)
 
 # Class: <http://purl.obolibrary.org/obo/GCDE_0000008> (Recreation, culture and religion)
 
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000008> <https://orcid.org/0000-0001-6350-2030>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000008> "Recreation, culture and religion"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000008> <http://purl.obolibrary.org/obo/GCDE_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000008> <http://www.ontologyrepository.com/CommonCoreOntologies/GovernmentAgency>)
 
 # Class: <http://purl.obolibrary.org/obo/GCDE_0000009> (Education)
 
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000009> <https://orcid.org/0000-0001-6350-2030>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000009> "Education"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000009> <http://purl.obolibrary.org/obo/GCDE_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000009> <http://www.ontologyrepository.com/CommonCoreOntologies/GovernmentAgency>)
 
 # Class: <http://purl.obolibrary.org/obo/GCDE_0000010> (Social protection)
 
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000010> <https://orcid.org/0000-0001-6350-2030>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000010> "Social protection"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000010> <http://purl.obolibrary.org/obo/GCDE_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000010> <http://www.ontologyrepository.com/CommonCoreOntologies/GovernmentAgency>)
 
 # Class: <http://purl.obolibrary.org/obo/GCDE_0000011> (Executive and legislative organisation)
 
@@ -629,25 +620,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000079> <http://purl.obolibrary
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000080> <https://orcid.org/0000-0001-6350-2030>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000080> "R&D social protection"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000080> <http://purl.obolibrary.org/obo/GCDE_0000010>)
-
-# Class: <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010001> (2010 Land Cover Of Canada)
-
-AnnotationAssertion(dce:creator <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010001> <https://orcid.org/0000-0002-2627-0696>)
-AnnotationAssertion(rdfs:label <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010001> "2010 Land Cover Of Canada"@en)
-SubClassOf(<https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010001> <http://www.w3.org/2004/02/skos/core#OrderedCollection>)
-
-# Class: <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010002> (2015 Land Cover Of Canada)
-
-AnnotationAssertion(dce:creator <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010002> <https://orcid.org/0000-0002-2627-0696>)
-AnnotationAssertion(rdfs:label <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010002> "2015 Land Cover Of Canada"@en)
-SubClassOf(<https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010002> <http://www.w3.org/2004/02/skos/core#OrderedCollection>)
-
-# Class: <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010003> (Accountable AI)
-
-AnnotationAssertion(dce:creator <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010003> <https://orcid.org/0000-0002-2627-0696>)
-AnnotationAssertion(dcterms:description <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010003> "AI")
-AnnotationAssertion(rdfs:label <https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010003> "Accountable AI"@en)
-SubClassOf(<https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl#GCDE_0010003> <http://www.w3.org/2004/02/skos/core#Concept>)
 
 
 ############################
