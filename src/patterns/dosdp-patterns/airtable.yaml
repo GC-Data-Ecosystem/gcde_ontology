@@ -40,7 +40,7 @@ def:
 #    - colour_pattern
   xrefs: "definition_source"
 
-equivalentTo:
+subClassOf:
   text: "'part_of' some %s"
   vars:
     - parent_class
