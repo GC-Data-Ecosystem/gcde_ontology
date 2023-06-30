@@ -5,4 +5,5 @@
     <uri id="Imports Wizard Entry" name="http://www.semanticweb.org/ontologies/All_namespaces" uri="All_namespaces.rdf"/>
     <uri id="Imports Wizard Entry" name="https://spec.edmcouncil.org/fibo/ontology/master/latest/BE/GovernmentEntities/NorthAmericanJurisdiction/CAGovernmentEntitiesAndJurisdictions/" uri="https://spec.edmcouncil.org/fibo/ontology/BE/GovernmentEntities/NorthAmericanJurisdiction/CAGovernmentEntitiesAndJurisdictions.rdf"/>
     <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
+    <uri name="http://purl.obolibrary.org/obo/gcde/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
 </catalog>
