@@ -2,9 +2,10 @@
 ![Build Status](https://github.com/KrishnaUdaiwal/gcde_ontology/workflows/CI/badge.svg)
 # GC Data Ecosystem ontology
 
-Description: None
+Currently viewable at [GovOntology.com/GCDE](http://govontology.com/ontologies/GCDE/?p=classes&conceptid=root)
 
-More information can be found at http://obofoundry.org/ontology/gcde
+~Description: 
+More information can be found at http://obofoundry.org/ontology/gcde~
 
 ## Versions
 
