@@ -44,13 +44,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000022>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000023>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000024>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000025>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000028>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000029>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000030>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000032>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000034>))
@@ -62,26 +60,22 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000039>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000040>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000041>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000042>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000043>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000044>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000045>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000046>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000047>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000048>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000049>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000050>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000051>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000052>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000053>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000054>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000055>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000056>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000057>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000058>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000059>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000060>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000061>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000062>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000063>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000064>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GCDE_0000065>))
@@ -303,12 +297,6 @@ AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000024> <h
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000024> "R&D defence"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000024> <http://purl.obolibrary.org/obo/GCDE_0000002>)
 
-# Class: <http://purl.obolibrary.org/obo/GCDE_0000025> (Defence)
-
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000025> <https://orcid.org/0000-0001-6350-2030>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000025> "Defence"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000025> <http://purl.obolibrary.org/obo/GCDE_0000002>)
-
 # Class: <http://purl.obolibrary.org/obo/GCDE_0000026> (Police services)
 
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000026> <https://orcid.org/0000-0001-6350-2030>)
@@ -338,12 +326,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000029> <http://purl.obolibrary
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000030> <https://orcid.org/0000-0001-6350-2030>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000030> "R&D public order and safety"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000030> <http://purl.obolibrary.org/obo/GCDE_0000003>)
-
-# Class: <http://purl.obolibrary.org/obo/GCDE_0000031> (Public order and safety)
-
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000031> <https://orcid.org/0000-0001-6350-2030>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000031> "Public order and safety"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000031> <http://purl.obolibrary.org/obo/GCDE_0000003>)
 
 # Class: <http://purl.obolibrary.org/obo/GCDE_0000032> (General economic)
 
@@ -411,12 +393,6 @@ AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000042> <h
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000042> "R&D economic affairs"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000042> <http://purl.obolibrary.org/obo/GCDE_0000004>)
 
-# Class: <http://purl.obolibrary.org/obo/GCDE_0000043> (R&D economic affairs)
-
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000043> <https://orcid.org/0000-0001-6350-2030>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000043> "R&D economic affairs"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000043> <http://purl.obolibrary.org/obo/GCDE_0000004>)
-
 # Class: <http://purl.obolibrary.org/obo/GCDE_0000044> (Waste management)
 
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000044> <https://orcid.org/0000-0001-6350-2030>)
@@ -447,12 +423,6 @@ AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000048> <h
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000048> "R&D environmental protection"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000048> <http://purl.obolibrary.org/obo/GCDE_0000005>)
 
-# Class: <http://purl.obolibrary.org/obo/GCDE_0000049> (Environmental protection)
-
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000049> <https://orcid.org/0000-0001-6350-2030>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000049> "Environmental protection"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000049> <http://purl.obolibrary.org/obo/GCDE_0000005>)
-
 # Class: <http://purl.obolibrary.org/obo/GCDE_0000050> (Housing development)
 
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000050> <https://orcid.org/0000-0001-6350-2030>)
@@ -482,12 +452,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000053> <http://purl.obolibrary
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000054> <https://orcid.org/0000-0001-6350-2030>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000054> "R&D housing and community amenities"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000054> <http://purl.obolibrary.org/obo/GCDE_0000006>)
-
-# Class: <http://purl.obolibrary.org/obo/GCDE_0000055> (Housing and community amenities)
-
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000055> <https://orcid.org/0000-0001-6350-2030>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000055> "Housing and community amenities"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000055> <http://purl.obolibrary.org/obo/GCDE_0000006>)
 
 # Class: <http://purl.obolibrary.org/obo/GCDE_0000056> (Medical products, appliances and equipment)
 
@@ -524,12 +488,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000060> <http://purl.obolibrary
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000061> <https://orcid.org/0000-0001-6350-2030>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000061> "Recreational and sporting services"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000061> <http://purl.obolibrary.org/obo/GCDE_0000008>)
-
-# Class: <http://purl.obolibrary.org/obo/GCDE_0000062> (Recreational and sporting services)
-
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/GCDE_0000062> <https://orcid.org/0000-0001-6350-2030>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GCDE_0000062> "Recreational and sporting services"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/GCDE_0000062> <http://purl.obolibrary.org/obo/GCDE_0000008>)
 
 # Class: <http://purl.obolibrary.org/obo/GCDE_0000063> (Broadcasting and publishing services)
 
