@@ -40,6 +40,14 @@ Datatype: idrange:1
     EquivalentTo: 
         xsd:integer[>= 0900000 , <= 0999999]
 
+Datatype: idrange:4
+
+    Annotations: 
+        allocatedto: "DODSP_airtable"
+    
+    EquivalentTo: 
+        xsd:integer[>= 0200000 , <= 0299999]
+
 
 ### Users ### 
 # Please add in range of 100,000 terms
