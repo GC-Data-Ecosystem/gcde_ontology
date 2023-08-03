@@ -1,8 +1,8 @@
-pattern_name: Airtable
-pattern_iri: http://purl.obolibrary.org/obo/obo-academy/patterns/airtable.yaml
+pattern_name: Airtable-manual
+pattern_iri: http://purl.obolibrary.org/obo/obo-academy/patterns/airtable-manual.yaml
 
 description: "
-  Add terms from GCDE Airtable to the ontology, with utmost flexibility."
+  Add manually curated terms from GCDE Airtable to the ontology, with utmost flexibility."
 
 classes:  # List of class/entities/types, or its subclasses
           # Used in vars, name, def, equivalentTo
