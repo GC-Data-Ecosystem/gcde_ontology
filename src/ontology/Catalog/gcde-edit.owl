@@ -12,7 +12,6 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 Ontology(<https://github.com/GC-Data-Ecosystem/gcde_ontology/gcde.owl>
 Import(<http://www.w3.org/2004/02/skos/core>)
 Import(<https://github.com/jonathanvajda/cco-d-acts>)
-Import(<http://purl.obolibrary.org/obo/gcde/patterns/definitions.owl>)
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "GC Data Ecosystem ontology")

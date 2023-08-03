@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+import csv, sys
+try:
+    csv.writer(sys.stdout, dialect='excel-tab').writerows(csv.reader(sys.stdin))
+except csv.Error as e:
+    sys.exit('file %s, line %d: %s' % (e))
